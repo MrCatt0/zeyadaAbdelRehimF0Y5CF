@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quentin Tarantino</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 1;
+            padding: 0;
+            background-color: white;
+            color: black;
+        }
+        header {
+            background-image: url('quin.JPG');
+            background-size: cover;
+            background-position: center;
+            padding: 250px;
+            text-align: center;
+            position: relative;
+        }
+        nav {
+            background-color: yellow;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .menu-item {
+            display: inline-block;
+            margin: 0 20px;
+        }
+      
+        section {
+            padding: 50px;
+        }
+        footer {
+            background-color: black;
+            color: yellow;
+            text-align: center;
+            padding: 8px;
+            position: fixed;
+	    left:0;            
+	    bottom: 0;
+            width: 100%;
+        }
+       .quin-tin {
+   	   display: inline-block;
+   	   margin: 20px;
+   	   position: relative;
+   	   cursor: pointer;
+   	   vertical-align: top; 
+	}
+         .quin-tin img {
+            width: 270px;
+            height: 140px;
+            border-radius: 5px;
+	    margin-right: 70px;
+        }
+        .quin-tin .info {
+	position: absolute;
+	top: 0;
+        left: -100;
+        width: 100%; 
+        height: 100%;  
+        background-color: rgba(211, 211, 211, 0.8);
+        border-radius: 5px;
+	padding: 10px;
+        box-sizing: border-box; 
+        display: none;
+        font-family: Arial, sans-serif; 
+        color: black 
+	
+        padding: 20px; 
+	text-decoration: none;          
+ /* display: none;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: left;
+            top: -120px;
+            left: 0;
+            width: 200px;*/
+        }
+        .quin-tin:hover .info {
+            display:block;
+        }
+	#circuit-maps {
+        text-align: center; 
+    }
+
+    .circuit-container {
+        display: flex; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+
+    .circuit {
+        margin: 20px; 
+        position: relative; 
+        transition: transform 0.3s ease; 
+    }
+
+    .circuit:hover {
+        transform: scale(1.1); 
+    }
+
+    .circuit img {
+        width: 500px; 
+        height: 270px; 
+    }
+
+    .circuit-number {
+        font-size: 18px; 
+    
+        margin-bottom: 5px;
+    }
+
+    .best .circuit-number {
+        font-size: 24px; 
+        color: black;
+    }
+
+    .circuit-name {
+       	position: absolute;
+	top: 0;
+        left: 0;
+        width: 100%; 
+        height: 100%;  
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 5px;
+	padding: 10px;
+        box-sizing: border-box; 
+        display: none;
+        font-family: Arial, sans-serif; 
+        color: white 
+	justify-content: center; 
+        align-items: center; 
+        
+        padding: 20px; 
+	text-decoration: none;
+	
+    }
+
+    .circuit:hover .circuit-name {
+        display: block; 
+    }
+	.circuit-name:hover {
+        background-color: rgba(255, 255, 255, 0.8); 
+    }
+	.circuit-name:visited {
+        color: white; 
+    }
+    .best .circuit img {
+        width: 500px; 
+	height: 270px;
+    }
+	
+
+
+    </style>
+</head>
+<body>
+   
+    <header>
+	<p></p>
+    </header>
+
+    <nav>
+	
+        <a class="menu-item" href="#About">About</a>
+        <span> | </span>
+	<a class="menu-item" href="#Filmography">Filmography</a>
+	<span> | </span>
+	<a class="menu-item" href="#Awards">Awards</a>
+	
+
+	
+    </nav>
+    
+    
+
+    <section id="About">
+        <h2>About</h2>
+      <body>
+      Quentin Jerome Tarantino was born in Knoxville, Tennessee. His father, Tony Tarantino, is an Italian-American actor and musician from New York, and his mother, Connie (McHugh), is a nurse from Tennessee. Quentin moved with his mother to Torrance, California, when he was four years old.
+
+In January of 1992, first-time writer-director Tarantino's Reservoir Dogs (1992) appeared at the Sundance Film Festival. The film garnered critical acclaim and the director became a legend immediately. Two years later, he followed up Dogs success with Pulp Fiction (1994) which premiered at the Cannes film festival, winning the coveted Palme D'Or Award. At the 1995 Academy Awards, it was nominated for the best picture, best director and best original screenplay. Tarantino and writing partner Roger Avary came away with the award only for best original screenplay. In 1995, Tarantino directed one fourth of the anthology Four Rooms (1995) with friends and fellow auteurs Alexandre Rockwell, Robert Rodriguez and Allison Anders. The film opened December 25 in the United States to very weak reviews. Tarantino's next film was From Dusk Till Dawn (1996), a vampire/crime story which he wrote and co-starred with George Clooney. The film did fairly well theatrically.
+      </body>
+        
+    </section>
+
+    
+
+   <section id="Filmography">
+    <h2>Filmography</h2>
+
+    <div class="quin-tin">
+	<a href="https://www.imdb.com/title/tt0105236/" target="_blank">
+        <img src="res2.JPG" alt="Resevoir Dogs" style="width: 225px; height:300px;">
+        <div class="info" style=" justify-content: center;">
+            <h3>Resevoir Dogs</h3>
+            <p>Tarentino's 1st film , Six criminals with pseudonyms, and each strangers to one another, are hired to carry out a robbery. The heist is ambushed by police and the gang are forced to shoot their way out. At their warehouse rendezvous, the survivors, realising that they were set up, try to find the traitor in their midst. .</p>
+        </div></a>
+    </div>
+
+    <div class="quin-tin">
+	<a href="https://www.imdb.com/title/tt0110912/" target="_blank" >
+        <img src="pulp.JPG" alt="Pulp Fiction" style="width: 225px; height:300px;">
+        <div class="info">
+            <h3>Pulp Fiction</h3>
+            <p>The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.</p>
+        </div></a>
+    </div>
+
+    <div class="quin-tin">
+	<a href="https://www.imdb.com/title/tt0119396/" target="_blank" >
+        <img src="jackieb.JPG" alt="Jackie Brown" style="width: 225px; height:300px;">
+        <div class="info">
+            <h3>Jackie Brown</h3>
+            <p>A flight attendant with a criminal past gets nabbed by the ATF for smuggling. Under pressure to become an informant against the illegal arms dealer she works for, she must find a way to secure her future without getting killed.</p>
+        </div></a>
+    </div>
+
+    <div class="quin-tin">
+	<a href="https://www.imdb.com/title/tt0266697/?ref_=nm_flmg_t_15_wr" target="_blank" >
+        <img src="kill.JPG" alt="Kill Bill: Vol 1" style="width: 225px; height:300px;">
+        <div class="info">
+            <h3>Kill Bill: Vol 1</h3>
+            <p>After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.</p>
+        </div></a>
+    </div>
+
+    <div class="quin-tin">
+	<a href=https://www.imdb.com/title/tt0361748/?ref_=nm_flmg_c_8_wr" target="_blank" >
+        <img src="bastards.JPG" alt="Inglorious Bastards" style="width: 225px; height:300px;">
+        <div class="info">
+            <h3>Inglorious Bastards</h3>
+            <p>In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.</p>
+        </div></a>
+    </div>
+
+    <div class="quin-tin">
+	<a href="https://www.imdb.com/title/tt1853728/?ref_=nm_flmg_t_7_wr" target="_blank">
+        <img src="djan.JPG" alt="Django Unchained" style="width: 225px; height:300px;">
+        <div class="info">
+            <h3>Django Unchained</h3>
+            <p>With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi..</p>
+        </div></a>
+    </div>
+
+    <div class="quin-tin">
+	<a href="https://www.imdb.com/title/tt3460252/?ref_=nm_flmg_t_5_wr" target="_blank" >
+        <img src="eight.JPG" alt="The Hateful Eight" style="width: 225; height:300px;">
+        <div class="info">
+            <h3>The Hateful Eight </h3>
+            <p>In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.</p>
+        </div></a>
+    </div>
+
+    <div class="quin-tin">
+	<a href="https://www.imdb.com/title/tt7131622/?ref_=nm_flmg_t_2_wr" target="_blank">
+        <img src="hollywood.JPG" alt="Once Upon a Time... in Hollywood" style="width: 225px; height:300px;">
+        <div class="info">
+            <h3>Once Upon a Time... in Hollywood</h3>
+            <p>A faded television actor and his stunt double strive to achieve fame and success in the final years of Hollywood's Golden Age in 1969 Los Angeles.</p>
+        </div></a>
+    </div>
+   </section>
+
+ 
+
+   <section id="Awards">
+   	<h2>Awards</h2>
+	  
+
+   <div class="Awards">
+    <div class="circuit">
+        <div class="circuit-number"> - Palme D'or (For the film "Pulp Fiction) </div>
+        <a href="https://www.youtube.com/watch?v=tnS5pXQQmR4&ab_channel=TheArchivesofKino" target="_blank">
+            <img src="dor.JPG" alt="Palme" style="width: 400px; height:400px;">
+            <div class="circuit-name" style="display: none; justify-content: center;">Palme</div>
+        </a>
+    </div>
+
+<br>
+    <div class="circuit">
+        <div class="circuit-number"> - Academy Awards (Pulp Fiction and Django Unchained)</div>
+        <a href="https://www.youtube.com/watch?v=6IGTPyLE27c&ab_channel=Oscars" target="_blank">
+            <img src="awards.WEBP" alt="Oscar" style="width: 450px; height:400px;">
+            <div class="circuit-name"style="display: none; justify-content: center;">Oscar</div>
+        </a>
+    </div>
+
+<br>
+    <div class="circuit">
+        <div class="circuit-number"> -Golden Globes(Once Upon A Time in Hollwood And Django Unchained)</div>
+        <a href="https://www.youtube.com/watch?v=JnVw8T2TRA4&ab_channel=TWB22" target="_blank">
+            <img src="globes.JPG" alt="globes"style="width: 450px; height:400px;">
+            <div class="circuit-name"style="display: none; justify-content: center;">globes</div>
+        </a>
+    </div>
+
+</div>
+
+    
+  
+   
+</section>
+
+
+
+
+    <footer>
+        <p>&copy; Directed By Quentin Tarantino.</p>
+    </footer>
+</body>
+</html>
